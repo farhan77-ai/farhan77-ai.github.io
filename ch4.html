@@ -1,0 +1,39 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PLAYER</title>
+
+<script type='text/javascript' src='https://content.jwplatform.com/libraries/IDzF9Zmk.js'></script>
+<script type="text/javascript">jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';</script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+<script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+
+  <script src="https://content.jwplatform.com/libraries/SAHhwvZq.js"></script>
+  <script type="text/javascript">
+    jwplayer.key = 'Khpp2dHxlBJHC8MCmLnBuV2jK/DwDnJMniwF6EO9HC/riJ712ZmbHg==';
+  </script>
+</head>
+<body>
+<div class="header">
+<div class="header"></div>
+<div id="jwplayerDiv"></div>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.css" />
+
+  <video class="op-player__media" id="player" controls playsinline>
+
+    <source src="https://rgelive.akamaized.net/hls/live/2043151/radiolive/playlist.m3u8" type="video/flv" />
+
+
+  </video>
+
+  <script src="https://cdn.jsdelivr.net/npm/openplayerjs@latest/dist/openplayer.min.js"></script>
+
+  <script>
+    // Check the `API and events` link below for more options
+
+    const player = new OpenPlayerJS('player');
+
+    player.init();
+  </script>

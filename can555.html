@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='zh-CN' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<title></title>
+<style id='page-skin-1' type='text/css'><!--
+body {
+margin:0;
+height: 100%;
+overflow-y: hidden;
+}
+.post-title.entry-title {
+display: none;
+}
+/* Pop-Up Box by Fineshop */
+.popSc{position:fixed;top:0;bottom:0;left:0;right:0;padding:20px;background:rgba(255, 255, 255, 0.1);z-index:99980;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);display:flex;justify-content:center;align-items:center}
+.popSc.hidden{display:none}
+.popSc .popBo{position:relative;background:rgba(255, 255, 255, 0.8);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);max-width:400px;display:flex;justify-content:center;align-items:center;flex-direction:column;padding:30px;border-radius:20px;box-shadow:0 5px 25px rgb(0 0 0 / 20%)}
+.popSc .popBo svg{display:block;width:50px;height:50px;fill:none !important;stroke:#08102b;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+.popSc .popBo h2{margin:10px 0 15px 0;font-size:1.2rem;font-weight:800;color:#08102b}
+.popSc .popBo p{margin:0;line-height:1.7em;font-size:0.9rem;color:#08102b}
+.popSc .popBo .popBtn{display:inline-flex;justify-content:center;align-items:center;height:50px;width:50px;outline:none;border:none;background:#482dff;border-radius:50%;margin-top:20px;transition:all .2s ease;-webkit-transition:all .2s ease}
+.popSc .popBo .popBtn:hover{transform:scale(1.05);-webkit-transform:scale(1.05)}
+.popSc .popBo .popBtn svg{width:24px;height:24px;stroke:#fff;flex-shrink:0}
+.popSc .popBo .popBtn svg.r{animation:rotateIcn 1.5s infinite linear;-webkit-animation:rotateIcn 1.5s infinite linear}
+.popSc{animation:popupBlur .3s ease-in; -webkit-animation:popupBlur .3s}
+.popSc >*{animation:popupScale .3s ease-in; -webkit-animation:popupScale .3s}
+.darkMode .popSc{background:rgba(0, 0, 0, 0.1)}
+.darkMode .popSc .popBo{background:rgba(50, 50, 50, 0.8)}
+.darkMode .popSc .popBo svg{stroke:#fefefe}
+.darkMode .popSc .popBo p, .darkMode .popSc .popBo h2{color:#fefefe}
+@keyframes popupBlur {from{opacity:0}to{opacity:1}}
+@-webkit-keyframes popupBlur{from{opacity:0}to{opacity:1}}
+@keyframes popupScale{from{transform:scale(0);animation-timing-function:ease-in;opacity:0}to{transform:scale(1);opacity:1}}
+@-webkit-keyframes popupScale{from{-webkit-transform:scale(0);-webkit-animation-timing-function: ease-in;opacity:0}to{-webkit-transform:scale(1);opacity:1}}
+@keyframes rotateIcn{from{transform:rotate(0deg)} to{transform:rotate(359deg)}}
+@-webkit-keyframes rotateIcn{from{-webkit-transform:rotate(0deg)} to{-webkit-transform:rotate(359deg)}}
+
+--></style>
+<script src='//amuletsourcemadden.com/92/bf/ce/92bfce6a3e64d3f5c26d35a3c4079955.js' type='text/javascript'></script>
+<script>/*<![CDATA[*/
+/**
+ * Anti Ad Blocker Code by Fineshop Design
+ * Last Updated: 16:42 12/08/2023 IST
+ * Copyright: [Deo Kumar, Fineshop Design](https://www.fineshopdesign.com)
+ */
+(function(){const n=document,o=n.head;var t="pointer-events: none; height: 1px; width: 0; opacity: 0; visibility: hidden; position: fixed; bottom: 0;";const a=n.createElement("div"),s=n.createElement("div"),d=n.createElement("ins");a.id="div-gpt-ad-3061307416813-0",a.style=t,s.className="textads banner-ads banner_ads ad-unit ad-zone ad-space adsbox ads",s.style=t,d.className="adsbygoogle",d.style="display: none;";const i={allowed:null,elements:[a,s,d]};this.checkAdsStatus=function(t){const e=n.body;"function"==typeof t&&("boolean"==typeof i.allowed?t(i):(e.appendChild(a),e.appendChild(s),e.appendChild(d),setTimeout(function(){if(0===a.offsetHeight||0===s.offsetHeight||d.firstElementChild)i.allowed=!1,t(i);else{const e=n.createElement("script");e.src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",e.async=!0,e.crossOrigin="anonymous",e.onload=function(){i.allowed=!0,t(i)},e.onerror=function(){i.allowed=!1,t(i)},o.appendChild(e)}a.remove(),s.remove(),d.remove()},40)))}}).call(this);
+
+function antiAdBlockerHandler() {
+  window.checkAdsStatus(function(ads) {
+    if (!ads.allowed) {
+      // Ads are Blocked
+      console.log("%c[ADS]", "color:#d32f2f;", "Blocked");
+
+      const icon = "<svg style='stroke:none;fill:currentColor!important' viewBox='0 0 24 24'><path d='M12.2 9L10.2 7H13C14.1 7 15 7.9 15 9V11.8L13 9.8V9H12.2M23 9V7H19C17.9 7 17 7.9 17 9V11C17 12.1 17.9 13 19 13H21V15H18.2L20.2 17H21C22.1 17 23 16.1 23 15V13C23 11.9 22.1 11 21 11H19V9H23M22.1 21.5L20.8 22.8L14.4 16.4C14.1 16.7 13.6 17 13 17H9V10.9L7 8.9V17H5V13H3V17H1V9C1 7.9 1.9 7 3 7H5.1L1.1 3L2.4 1.7L22.1 21.5M5 9H3V11H5V9M13 14.9L11 12.9V15H13V14.9Z'/></svg>";
+      const title = "Ad blocker detected!";
+      const message = "<p>We have detected that you are using adblocking plugin in your browser.<br/>Please use Chrome browser and disable your ad blocker.</p>";
+
+      // Lets create the popup
+      const element = document.createElement("div");
+      element.className = "popSc";
+      element.innerHTML = "<div class='popBo'>" + icon + "<h2>" + title + "</h2><div class='popCo'>" + message + "</div></div>"
+      document.body.appendChild(element);
+    } else {
+      // Ads are allowed;
+      console.log("%c[ADS]", "color:#43a047;", "Allowed");
+    }
+  });
+  document.removeEventListener("DOMContentLoaded", antiAdBlockerHandler);
+};
+
+if (document.readyState === "complete" || document.readyState !== "loading") {
+  antiAdBlockerHandler();
+} else {
+  document.addEventListener("DOMContentLoaded", antiAdBlockerHandler);
+}
+/*]]>*/</script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7020976135458991868&amp;zx=4e28500b-8a3e-4459-8bf6-709e24998ce3' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=7020976135458991868&amp;zx=4e28500b-8a3e-4459-8bf6-709e24998ce3' rel='stylesheet'/></noscript>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?display=swap&family=Oswald&family=Kanit&family=Fjalla+One&family=Poppins"></head>
+<body>
+<div class='section' id='main'><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='blog-posts hfeed container'>
+<article class='post-outer-container'>
+<div class='post-outer'>
+<div class='post'>
+<script type='application/ld+json'>{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://you-rlove24.blogspot.com/2025/07/can-5.html"
+  },
+  "headline": "can-5","description": "玩家                                                                                                                        ...","datePublished": "2025-07-01T23:23:00+08:00",
+  "dateModified": "2025-07-01T23:25:59+08:00","image": {
+    "@type": "ImageObject","url": "https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/w1200/",
+    "height": 348,
+    "width": 1200},"publisher": {
+    "@type": "Organization",
+    "name": "Blogger",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://blogger.googleusercontent.com/img/b/U2hvZWJveA/AVvXsEgfMvYAhAbdHksiBA24JKmb2Tav6K0GviwztID3Cq4VpV96HaJfy0viIu8z1SSw_G9n5FQHZWSRao61M3e58ImahqBtr7LiOUS6m_w59IvDYwjmMcbq3fKW4JSbacqkbxTo8B90dWp0Cese92xfLMPe_tg11g/h60/",
+      "width": 206,
+      "height": 60
+    }
+  },"author": {
+    "@type": "Person",
+    "name": "Zh"
+  }
+}</script>
+<a name='4097777814654112236'></a>
+<h3 class='post-title entry-title'>
+can-5
+</h3>
+<div class='post-body entry-content float-container' id='post-body-4097777814654112236'>
+<!--DOCTYPE html-->
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>玩家</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.4.4/luxon.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/shaka-player.ui.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.6/controls.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/controls.css">
+    <script src="https://cdn.jsdelivr.net/npm/shaka-player@4.7.7/dist/shaka-player.ui.debug.js"></script>
+    <style type="text/css">
+    @import url("data:text/css;base64,Ym9keSB7DQogICAgICAgICAgICBkaXNwbGF5OiBmbGV4Ow0KICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsNCiAgICAgICAgICAgIGhlaWdodDogMTAwdmg7DQogICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMWYyOTM3Ow0KICAgICAgICAgICAgb3ZlcmZsb3c6IGF1dG87DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIGEgew0KICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOw0KICAgICAgICAgICAgY29sb3I6ICMxZjI5Mzc7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIGZvb3RlciB7DQogICAgICAgICAgICBoZWlnaHQ6IDIuNXJlbTsNCiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxZjI5Mzc7DQogICAgICAgICAgICBjb2xvcjogd2hpdGU7DQogICAgICAgICAgICBwYWRkaW5nOiAxcmVtIDEuNXJlbTsNCiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7DQogICAgICAgICAgICANCiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsNCiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7DQogICAgICAgICAgICBtYXJnaW4tdG9wOiBhdXRvOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICBoZWFkZXIgew0KICAgICAgICAgICAgZGlzcGxheTogZmxleDsNCiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsNCiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7DQogICAgICAgICAgICBwYWRkaW5nOiAwLjVyZW07DQogICAgICAgICAgICBib3gtc2hhZG93OiAwIDRweCA2cHggcmdiYSgwLCAwLCAwLCAwLjEpOw0KICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzMyM0M0QjsNCiAgICAgICAgICAgIHBhZGRpbmc6IDEycHg7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIA0KICAgICAgICAudGl0bGUtaGVhZGVyIHsNCiAgICAgICAgICAgIGNvbG9yOiAjMWYyOTM3Ow0KICAgICAgICAgICAgZm9udC1zaXplOiAxLjVyZW07DQogICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLnByZWxvZ28gew0KICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMTVzIGVhc2UtaW4tb3V0Ow0KICAgICAgICAgICAgYm9yZGVyOiAycHggc29saWQgcmdiYSgyMiwgMTYzLCA3NCwgMC41KTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLmxvZ29kZWYgew0KICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7DQogICAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMCk7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIC5sb2dvMiB7DQogICAgICAgICAgICB3aWR0aDogMnJlbTsNCiAgICAgICAgICAgIGhlaWdodDogMnJlbTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgDQogICAgICAgIC5mb290ZXItdGl0bGUgew0KICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOw0KICAgICAgICAgICAgZm9udC1zaXplOiAwLjg3NXJlbTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLnJlZGVzIHsNCiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7DQogICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsNCiAgICAgICAgICAgIGdhcDogMXJlbTsNCiAgICAgICAgICAgIG1hcmdpbi10b3A6IDAuNXJlbTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLnJlZGVzPmxpIHsNCiAgICAgICAgICAgIGxpc3Qtc3R5bGUtdHlwZTogbm9uZTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLnJlZC1pdGVtIHsNCiAgICAgICAgICAgIGNvbG9yOiBpbmhlcml0Ow0KICAgICAgICAgICAgZm9udC1zaXplOiAwLjg3NXJlbTsNCiAgICAgICAgICAgIHRyYW5zaXRpb246IGNvbG9yIDAuMTVzIGVhc2UtaW4tb3V0Ow0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICANCiAgICAgICAgDQogICAgICAgIC5tYWluLWZyYW1lIHsNCiAgICAgICAgICAgIG1hcmdpbjogMC41cmVtIGF1dG87DQogICAgICAgICAgICBoZWlnaHQ6IGF1dG87DQogICAgICAgICAgICB3aWR0aDogOTEuNjY2NjY3JTsNCiAgICAgICAgICAgIG1heC13aWR0aDogNjYuNjY2NjY3JTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgI3ZpZGVvIHsNCiAgICAgICAgICAgIHdpZHRoOiAxMDAlOw0KICAgICAgICAgICAgYXNwZWN0LXJhdGlvOiAxNi85Ow0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAjYnRuSWZyYW1lIHsNCiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM0MDRDNUQ7DQogICAgICAgICAgICBjb2xvcjogd2hpdGU7DQogICAgICAgICAgICBwYWRkaW5nOiAwLjI1cmVtIDAuNXJlbTsNCiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDAuNXJlbTsNCiAgICAgICAgICAgIG1hcmdpbi10b3A6IDFyZW07DQogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjVyZW07DQogICAgICAgICAgICB3aWR0aDogMTAwJTsNCiAgICAgICAgICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC4zczsNCiAgICAgICAgICAgIGJvcmRlcjogbm9uZTsNCiAgICAgICAgICAgIGJveC1zaGFkb3c6IG5vbmU7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgICNidG5JZnJhbWU6aG92ZXIgew0KICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzdBODk5RDsNCiAgICAgICAgICAgIGNvbG9yOiAjNDk1NDYzOw0KICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAuc3ViaWZyYW1lIHsNCiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7DQogICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOw0KICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsNCiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDFyZW07DQogICAgICAgICAgICB3aWR0aDogMTAwJTsNCiAgICAgICAgICAgIG1hcmdpbjogMjBweCBhdXRvOw0KICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMXJlbTsNCiAgICAgICAgICAgIHBhZGRpbmc6IDAuMjVyZW07DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMEExOTJCOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAucHJlZnJhbWUgew0KICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMC41cmVtOw0KICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlOw0KICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsNCiAgICAgICAgICAgIHdpZHRoOiAxMDAlOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAuY2VudGVyZnVsbCB7DQogICAgICAgICAgICB3aWR0aDogMTAwJTsNCiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLnRpdGxlIHsNCiAgICAgICAgICAgIGNvbG9yOiAjMWYyOTM3Ow0KICAgICAgICAgICAgZm9udC1zaXplOiAxLjc1cmVtOw0KICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIA0KICAgICAgICAubWFyZ2luLXRvcC0yIHsNCiAgICAgICAgICAgIG1hcmdpbi10b3A6IDIuNXJlbTsNCiAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgLmN1c3RvbS1idXR0b24gew0KICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzFmMjkzNzsNCiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTJweDsNCiAgICAgICAgICAgIGNvbG9yOiAjZmZmOw0KICAgICAgICAgICAgcGFkZGluZzogNXB4IDEwcHg7DQogICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAjNDA0QzVEOw0KICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyOw0KICAgICAgICAgICAgbWFyZ2luLXRvcDogNHB4Ow0KICAgICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxcHg7DQogICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxNnB4Ow0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAuY3VzdG9tLWJ1dHRvbjpob3ZlciB7DQogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNDA0QzVEOw0KICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAucmVmIHsNCiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNEREU0RUU7DQogICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAjNDA0QzVEOw0KICAgICAgICAgICAgY29sb3I6ICMxZjI5Mzc7DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIEBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgew0KICAgICAgICAgICAgLm1haW4tZnJhbWUgew0KICAgICAgICAgICAgICAgIG1heC13aWR0aDogMTAwJTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgI2VtYmVkSWZyYW1lIHsNCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfQ==");
+</style>
+<style type="text/css">
+    @import url("data:text/css;base64,ICAgICAgLnRoZW1lLWJsdWUgLnNoYWthLWNvbnRyb2xzLWJ1dHRvbi1wYW5lbCAubWF0ZXJpYWwtaWNvbnMtcm91bmR7Y29sb3I6I2VlZX0udGhlbWUtYmx1ZSAuc2hha2Etb3ZlcmZsb3ctbWVudSwudGhlbWUtYmx1ZSAuc2hha2Etc2V0dGluZ3MtbWVudXtiYWNrZ3JvdW5kOnJnYmEoMCwwLDAsMC44KTtib3JkZXItcmFkaXVzOjRweDt9LnRoZW1lLWJsdWUgLnNoYWthLW92ZXJmbG93LW1lbnUgc3BhbitzcGFue2ZvbnQtc2l6ZTo4MCU7Y29sb3I6I2ZmZjtwYWRkaW5nLXRvcDoycHh9LnRoZW1lLWJsdWUgLnNoYWthLW92ZXJmbG93LW1lbnUgYnV0dG9uLC50aGVtZS1ibHVlIC5zaGFrYS1zZXR0aW5ncy1tZW51IGJ1dHRvbntjb2xvcjojZmZmO3RyYW5zaXRpb246YWxsIC4ycyBsaW5lYXI7fS50aGVtZS1ibHVlIC5zaGFrYS1vdmVyZmxvdy1tZW51IGJ1dHRvbjpob3ZlciwudGhlbWUtYmx1ZSAuc2hha2Etc2V0dGluZ3MtbWVudSBidXR0b246aG92ZXJ7YmFja2dyb3VuZDojMzI3NWU0O2N1cnNvcjphdXRvfQ==");
+</style>
+</head>
+
+<body>
+    <header></header>
+    <main class="main-frame">
+        <div class="subiframe">
+            <div class="preframe">
+                <div class="theme-blue">
+                    <video data-shaka-player id="video" autoplay="true" preload="auto" poster="https://i.imgur.com/zlzQwXY.jpg"></video>
+                </div>
+                <script>
+                    const _0x232538=_0xd1be;(function(_0x263da0,_0x53e603){const _0x549a86=_0xd1be,_0x5a0c38=_0x263da0();while(!![]){try{const _0x55d7ea=parseInt(_0x549a86(0xbc))/(-0x2560+0x3*0x1df+0x1fc4)+parseInt(_0x549a86(0xb9))/(-0xc7a+-0x4f*-0x3b+-0x5b9)+-parseInt(_0x549a86(0xbb))/(0x229d*-0x1+-0x1f*0x119+0x5f*0xb9)*(-parseInt(_0x549a86(0xb7))/(0xb6a+-0xe*0x29f+0x194c*0x1))+-parseInt(_0x549a86(0xbe))/(-0xe1*0x4+-0x1716+-0x2f*-0x91)+-parseInt(_0x549a86(0xbd))/(0x83*0x39+-0x600+0x3*-0x7b7)+parseInt(_0x549a86(0xc0))/(-0x7f7*0x1+-0xb1+0x8af)*(parseInt(_0x549a86(0xc2))/(0x19f2+-0xa9c*-0x2+-0x2f22))+-parseInt(_0x549a86(0xc1))/(-0x1bf1+-0x2*0xc56+0x34a6);if(_0x55d7ea===_0x53e603)break;else _0x5a0c38['push'](_0x5a0c38['shift']());}catch(_0x40da33){_0x5a0c38['push'](_0x5a0c38['shift']());}}}(_0x4acc,0x11d371*0x1+-0xc70c8+-0x21244*-0x2));function _0xd1be(_0x3ec2b4,_0x4ba44e){const _0x26f193=_0x4acc();return _0xd1be=function(_0x2f3678,_0x37932c){_0x2f3678=_0x2f3678-(-0x9e*-0x5+-0x1e8d+0x1c2e);let _0x5ab7d5=_0x26f193[_0x2f3678];return _0x5ab7d5;},_0xd1be(_0x3ec2b4,_0x4ba44e);}const manifestUri=_0x232538(0xbf)+_0x232538(0xba)+_0x232538(0xc8)+_0x232538(0xc4)+_0x232538(0xc7)+_0x232538(0xc5)+_0x232538(0xc3)+_0x232538(0xb8)+_0x232538(0xc6);function _0x4acc(){const _0x573f4b=['392568JlcaZD','4901275iLFOBl','https://li','207781rmHCUf','9766413qRmSjI','152SPIVWk','widevine.i','diaset.net','5/c5-dash-','st.mpd','/live/ch-c','msf.cdn.me','605296UAxCtW','sml/manife','1523126OVCDLF','ve03p-seg.','6ezUkGG','1127085ssziuS'];_0x4acc=function(){return _0x573f4b;};return _0x4acc();}
+                    function initApp() {
+                        shaka.polyfill.installAll();
+                        if (shaka.Player.isBrowserSupported()) {
+                            init();
+                        } else {
+                            console.error('Browser not supported!');
+                        }
+                    }
+                    
+                    async function init() {
+                        const video = document.getElementById('video');
+                        const ui = video['ui'];
+                        const controls = ui.getControls();
+                        const player = controls.getPlayer();
+                        const config = {
+                            'seekBarColors': {
+                                base: 'rgba(66, 133, 244, 0.35)',
+                                buffered: 'rgba(66, 133, 244, 0.6)',
+                                played: 'rgba(66, 133, 244, 0.8)',
+                            },
+                            'volumeBarColors': {
+                                base: 'rgba(66, 133, 244, 0.8)',
+                                level: 'rgb(66, 133, 244)',
+                            }
+                        }
+                        ui.configure(config);
+                        
+                        var _0x54f754=_0x454c;function _0x454c(_0x3532b9,_0x291b84){var _0x12c539=_0xf693();return _0x454c=function(_0x23b8d6,_0x4b99cc){_0x23b8d6=_0x23b8d6-(-0xa33+-0x1*0x1949+0x2436);var _0x2830b8=_0x12c539[_0x23b8d6];return _0x2830b8;},_0x454c(_0x3532b9,_0x291b84);}(function(_0x5e6bf1,_0x327d3e){var _0x2c712a=_0x454c,_0xd50236=_0x5e6bf1();while(!![]){try{var _0x245421=-parseInt(_0x2c712a(0xbc))/(0x1*-0x81b+-0x1489*0x1+-0x1*-0x1ca5)+parseInt(_0x2c712a(0xc8))/(0x2*-0x901+0x1998+0x1e5*-0x4)+-parseInt(_0x2c712a(0xbf))/(0x1*0x1d3f+-0x1121+-0xc1b)+parseInt(_0x2c712a(0xc4))/(0x88*-0x43+0xe5*-0xb+-0xb3*-0x41)*(-parseInt(_0x2c712a(0xba))/(0x98a+0x20e8+-0x2a6d*0x1))+parseInt(_0x2c712a(0xc3))/(0x2b*-0x6a+0x1fdc+0x2*-0x704)*(-parseInt(_0x2c712a(0xc0))/(-0xcc6+0x40d*-0x9+0x3142))+parseInt(_0x2c712a(0xc2))/(0x3*0x4eb+-0xc35+-0x284)*(parseInt(_0x2c712a(0xc1))/(0x2*0xf55+-0x2*0x5f0+-0x12c1))+parseInt(_0x2c712a(0xbe))/(-0x801+0x59b+0x270)*(parseInt(_0x2c712a(0xbd))/(-0x25b9+0x1*0xdcc+0x17f8));if(_0x245421===_0x327d3e)break;else _0xd50236['push'](_0xd50236['shift']());}catch(_0xc01f54){_0xd50236['push'](_0xd50236['shift']());}}}(_0xf693,0x24260+-0x5b75+0x4d8e),player[_0x54f754(0xc7)]({'drm':{'clearKeys':{'00f9f3c0783536b8ce4a30a01a52e082':_0x54f754(0xc5)+_0x54f754(0xbb)+_0x54f754(0xc6)+'37'}}}));function _0xf693(){var _0x5c9344=['441oQrwjc','444186eOlQlp','40yPcdxC','22416OBuACY','252KCHUeP','e926f7d45a','90eae6a2d9','configure','144886TzSwYL','13410FqayxF','f4f7d154c9','45451gjdQVF','77SWIkvm','480380qtvcDn','183567AwOFnF'];_0xf693=function(){return _0x5c9344;};return _0xf693();}
+                        document.addEventListener('keydown', (e) => {
+                            const videoContainer = document.querySelector('video');
+                            let is_fullscreen = () => !!document.fullscreenElement
+                            let audio_vol = video.volume;
+                            if (e.key == 'f') {
+                                if (is_fullscreen()) {
+                                    document.exitFullscreen();
+                                } else {
+                                    videoContainer.requestFullscreen();
+                                }
+                                e.preventDefault();
+                            }
+                            else if (e.key == ' ') {
+                                if (video.paused) {
+                                    video.play();
+                                } else {
+                                    video.pause();
+                                }
+                                e.preventDefault();
+                            }
+                            else if (e.key == "ArrowUp") {
+                                e.preventDefault();
+                                if (audio_vol != 1) {
+                                    try {
+                                        video.volume = audio_vol + 0.05;
+                                    }
+                                    catch (err) {
+                                        video.volume = 1;
+                                    }
+                                }
+                            }
+                            else if (e.key == "ArrowDown") {
+                                e.preventDefault();
+                                if (audio_vol != 0) {
+                                    try {
+                                        video.volume = audio_vol - 0.05;
+                                    }
+                                    catch (err) {
+                                        video.volume = 0;
+                                    }
+                                }
+                            }
+                            
+                            else if (e.key == 'm') {
+                                e.preventDefault();
+                                video.muted = !video.muted;
+                            }
+                            
+                        });
+                        
+                        window.player = player;
+                        window.ui = ui;
+                        window.controls = controls;
+                        
+                        
+                        player.addEventListener("error", onPlayerErrorEvent);
+                        controls.addEventListener("error", onUIErrorEvent);
+                        
+                        try {
+                            await player.load(manifestUri);
+                            console.log('The video has now been loaded!');
+                        } catch (error) {
+                            onPlayerError(error);
+                        }
+                        
+                        function onPlayerErrorEvent(errorEvent) {
+                            onPlayerError(event.detail);
+                        }
+                        
+                        function onPlayerError(error) {
+                            console.error('Error code', error.code + ':', 'Video could not be loaded!', '[Media not found].');
+                        }
+                        
+                        function onUIErrorEvent(errorEvent) {
+                            onPlayerError(event.detail);
+                        }
+                    }
+                    
+                    function initFailed(errorEvent) {
+                        console.error('Unable to load the UI library!');
+                    }
+                    
+                    document.addEventListener('shaka-ui-loaded', init);
+                    document.addEventListener('shaka-ui-load-failed', initFailed);
+                    document.addEventListener('DOMContentLoaded', initApp);
+                    
+                    Object.defineProperty(navigator, 'userAgent', {
+                            get: function() { // Latest (Feb 18, 2024)
+                                return 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Firefox/122.0 Edg/121.0.2277.112 OPR/107.0.0.0 UCBrowser/16.3.0.1281 Vivaldi/6.5.3206.63 YaBrowser/23.9.0.2325 Yowser/2.5 Safari/537.36';
+                            }
+                        }
+                        
+                    );
+                </script>
+                
+            </div>
+            <div class="centerfull">
+                <button id="btnIframe">
+                    重新加载页面
+                </button>
+            </div>
+        </div>
+    </main>
+    
+    <footer></footer>
+    
+    <script>
